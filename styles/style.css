@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+/* dissplays spaces between words and makes them centered */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BD8D68;
+}
+body {
+    background: linear-gradient(180deg, 
+    rgba(0,0,0,0.3) 0%,
+    rgba(0,0,0,0.8) 100%),  url(/images/krustyBurger.jpg) no-repeat center fixed ;
+    background-size: cover;
+}
+/* changes size of logo and adjusts it to the margin */
+.logo {
+    width:  10rem;
+    margin: 10px 30px 10px 20px;
+}
+
+/* clears the decoration for the links as well as change colour */
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 16px;
+    color: black;
+}
+
+::selection {
+    color: #FFEBEB;
+}
+
+.headlink:hover {
+    color: #FFE6C7;
+    border: 3px solid #FFE6C7;
+    
+}
+.headlink {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 35px;
+    margin: 0 40px 0 0 ;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    text-decoration: underline;
+    text-shadow: 2px 3px 4px #f8dab5;
+}
+
+
+.aboutUs {
+    color: black;
+    border: 0 solid ;
+    background-color: #bd8d68a6 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.aboutUs p {
+    font-size: 25px;
+}
+
+.founder {
+    margin-top: 70px;
+    border: 0 solid ;
+    background-color: #bd8d68a6 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-right: 700px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+.founder p {
+    font-size: 20px;
+}
+
+.feeding img {
+    position: relative;
+    left: 930px;
+    width: 515px;
+    top: -146px;
+    bottom: 55px;
+    outline: 10px solid #BD8D68;
+    background-color: #bd8d68a6 ;
+  
+}
+
+.menu{
+    margin-left: 40px;
+    border: 0 solid ;
+    background-color: #bd8d68a6;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.menu h2 {
+    font-size: 50px;
+}
+
+.menu p {
+    font-size: 30px;
+}
+
+.menuimg {
+    position: relative;
+    left: 429px;
+    width: 1000px;
+}
+
+.menuimg img {
+    height: 260px;
+    outline: 10px solid #BD8D68;
+}
+ .menu1 {
+    width: 400px;
+    position: relative;
+    left: 980px;
+    top: 20px;
+    outline: 10px solid #BD8D68;
+ }
+
+ .menu2 {
+    width: 400px;
+    position: relative;
+    right: 300px;
+    top: 20px;
+    outline: 10px solid #BD8D68;
+ }
+
+ footer {
+    text-align: center;
+    margin-top: 26px;
+    padding: 20px;
+    background-color: #BD8D68;
+    color: black;
+}
